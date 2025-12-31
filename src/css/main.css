@@ -171,3 +171,37 @@ gap: 12px;
     padding-left: 30px;
    }
 }
+/* Gallery */
+.gallery-section{
+    background-image: url("/img/gallery/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.gallery-container{
+    position: relative;
+    padding-bottom: 180px;
+}
+/* MOBILE — Swiper */
+.features-swiper {
+    overflow: hidden;
+}
+
+.features-swiper .swiper-wrapper {
+    display: flex;
+height: 223px;
+}
+
+.features-swiper .swiper-slide {
+    width: 375px;
+    height: 440px;
+    flex-shrink: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    transform: translateY(-50%);
+}
