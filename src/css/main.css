@@ -79,3 +79,38 @@
     padding-bottom: 42px;
  }
 }
+/* ABOUT GAME */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 1190px;
+}
+.about-wrapper{
+    backdrop-filter: blur(22px);
+        box-shadow: inset 0 0 22px 0 rgba(255, 255, 255, 0.8);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.45) 0%, rgba(118, 255, 234, 0.45) 100%);
+        border-radius: 22px;
+            padding: 44px 22px;
+            width: 335px;
+            height: 782px;
+}
+.about-text-wrapper{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+@media only screen and (min-width: 1440px) {
+  .about-section{
+    background-image: url("/img/about/desk.png");
+    height: 840px;
+  }
+  .about-wrapper{
+    border-radius: 22px;
+        padding: 44px 22px;
+        width: 1240px;
+        height: 381px;
+  }
+}
