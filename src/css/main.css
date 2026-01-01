@@ -211,3 +211,31 @@ height: 223px;
 .swiper-button-next{
     right: 15%;
 }
+@media only screen and (min-width: 1440px) {
+ .gallery-section{
+    background-image: url("/img/gallery/desk.png");
+ }
+ .swiper-button-prev,
+ .swiper-button-next {
+display: none;
+ }
+ .features-swiper .swiper-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height: 800px;
+     gap: 20px;
+ }
+
+ .gallery-container{
+    padding-left: 0;
+    padding-right: 0;
+ }
+ .swiper-slide{
+    width: 460px !important;
+        height: 320px !important;
+ } .first-row{
+    width: 600px !important;
+        height: 400px !important;
+ }
+}
