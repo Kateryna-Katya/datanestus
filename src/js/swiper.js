@@ -3,8 +3,9 @@ let swiper;
 function initSwiper() {
   if (window.innerWidth <= 768 && !swiper) {
     swiper = new Swiper('.features-swiper', {
-      slidesPerView: 1,
+      slidesPerView: 1.2,
       spaceBetween: 16,
+       centeredSlides: true,
       loop: true,
 
       autoplay: {
