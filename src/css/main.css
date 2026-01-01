@@ -239,3 +239,72 @@ display: none;
         height: 400px !important;
  }
 }
+/* Demo */
+.demo-section{
+    background-image: url("/img/demo/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.demo-text{
+    font-size: 22px;
+    line-height: 1.18182;
+    text-align: center;
+ width: 300px;
+margin: 12px auto 40px;
+}
+
+.demo-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.game-img {
+    width: 100%;
+    display: block;
+    margin-bottom: 22px;
+    border-radius: 44px;
+}
+
+.demo-img {
+    display: block;
+    width: 227px;
+        height: 98px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* iframe поверх картинки */
+.iframe-wrapper {
+    position: absolute;
+    top: 1%;
+    /* під екран у картинці */
+    left: 35%;
+    transform: translateX(-50%);
+    width: 68%;
+    height: 54%;
+    z-index: 5;
+}
+
+#gameIframe {
+    width: 144%;
+    height: 182%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 44px;
+}
+
+#closeIframeBtn {
+    position: absolute;
+    top: 20px;
+    right: -100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+    width: 60px;
+    height: 30px;
+}
